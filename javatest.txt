@@ -1,0 +1,19 @@
+steps:
+
+1. create java project
+2. load the drivers
+3. create bean class
+4. create xml file to get the properties
+5. create test class
+
+definition of spring framework:
+
+The Spring Framework (Spring) is an open-source application framework that provides infrastructure support for developing Java applications. One of the most popular Java Enterprise Edition (Java EE) frameworks, Spring helps developers create high performing applications using plain old Java objects (POJOs).  
+
+
+regarding the practical difference between HashMap and Hashtable, here are a few key points:
+
+Synchronization: Hashtable is synchronized, which means it's thread-safe and can be accessed by multiple threads concurrently without any issues. On the other hand, HashMap is not synchronized by default, which means it's not thread-safe. However, you can make it synchronized by using Collections.synchronizedMap() method to wrap it.
+Null values: Hashtable does not allow null keys or values. If you try to put a null key or value into a Hashtable, it will throw a NullPointerException. On the other hand, HashMap allows null keys and values.
+Iteration: Hashtable is slower than HashMap when it comes to iterating over its elements because of its synchronized nature. In contrast, HashMap is faster because it's not synchronized.
+Enumeration: Hashtable has a method called elements() that returns an enumeration of the values in the Hashtable. HashMap does not have an equivalent method.
